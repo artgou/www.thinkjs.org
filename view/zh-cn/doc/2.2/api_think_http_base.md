@@ -170,9 +170,10 @@ export default class extends think.controller.base {
 
 ```
 
-#### controller(name)
+#### controller(name, module)
 
 * `name` {String} controller名称
+* `module` {String} module名称,默认null表示上下文当前模块
 * `return` {Object} controller实例
 
 获取 Controller 的实例，如果 Controller 找不到，则报错。
